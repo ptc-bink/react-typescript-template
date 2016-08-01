@@ -3,8 +3,8 @@ import './App.css';
 
 const logo = require('./logo.svg');
 
-export class App extends React.Component<any,any> {
-  render() {
+export class App extends React.Component<any, any> {
+  public render() {
     return (
       <div className="App">
         <div className="App-header">

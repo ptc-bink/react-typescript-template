@@ -8,9 +8,9 @@
     "clean": "rimraf build"
   },
   "license": "MIT",
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/provkylej/react-typescript-template.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/provkylej/react-typescript-template.git"
   },
   "devDependencies": {
     "autoprefixer": "6.3.7",
@@ -32,6 +32,9 @@
     "rimraf": "2.5.4",
     "style-loader": "0.13.1",
     "ts-loader": "^0.8.2",
+    "tslint": "^3.14.0",
+    "tslint-loader": "^2.1.5",
+    "tslint-react": "^0.4.0",
     "typescript": "^2.0.0",
     "url-loader": "0.5.7",
     "webpack": "1.13.1",

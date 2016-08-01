@@ -28,6 +28,12 @@ module.exports = {
     moduleTemplates: ['*-loader']
   },
   module: {
+    preLoaders: [
+      {
+        test: /\.tsx?$/,
+        loader: 'tslint'
+      }
+    ],
     loaders: [
       {
         test: /\.tsx?$/,
@@ -65,6 +71,9 @@ module.exports = {
   },
   postcss: function() {
     return [autoprefixer];
+  },
+  tslint: {
+    failOnHint: true
   },
   plugins: [
     new HtmlWebpackPlugin({
