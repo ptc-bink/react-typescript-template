@@ -7,11 +7,20 @@
     "sourceMap": true,
     "inlineSourceMap": false,
     "inlineSources": false,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "preserveConstEnums": true,
     "experimentalDecorators": true,
+    "removeComments": true,
+    "strictNullChecks": true,
     "jsx": "react",
     "moduleResolution": "node"
   },
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "build"
   ]
 }
