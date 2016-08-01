@@ -5,10 +5,16 @@
   "scripts": {
     "start": "node ./scripts/start.js",
     "build": "node ./scripts/build.js",
-    "clean": "rimraf build"
+    "clean": "rm -rf build"
+  },
+  "license": "MIT",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/provkylej/react-typescript-template.git"
   },
   "devDependencies": {
     "autoprefixer": "6.3.7",
+    "case-sensitive-paths-webpack-plugin": "1.1.2",
     "chalk": "1.1.3",
     "cross-spawn": "4.0.0",
     "css-loader": "0.23.1",
