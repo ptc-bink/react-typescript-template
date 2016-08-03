@@ -3,7 +3,7 @@ This is a template for creating new React+Typescript projects, based on [create-
 - No eslint
 - Typescript
 - tslint
-- 
+
 ## Folder Structure
 
 ```
