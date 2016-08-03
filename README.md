@@ -1,8 +1,9 @@
-This is a template for creating new React+Typescript projects, based on [create-react-app](https://github.com/facebookincubator/create-react-app) from Facebook. It will be kept up to date with the changes being made there. The main differences are:
+This is a template for creating new React+Typescript projects, based on [create-react-app](https://github.com/facebookincubator/create-react-app) from Facebook. 
 - No Babel
 - No eslint
 - Typescript
 - tslint
+- no Jest
 
 ## Folder Structure
 
