@@ -5,10 +5,20 @@
     "quotemark": [ true, "single", "jsx-double" ],
     "no-var-requires": false,
     "ordered-imports": false,
-    "no-unused-variable": [true, "react"],
+    "no-unused-variable": [true, "react",{"ignore-pattern": "^mocha"}],
     "member-ordering": false,
     "object-literal-sort-keys": false,
     "no-shadowed-variable": false,
-    "no-console": false
+    "no-console": false,
+    "interface-name": false,
+    "variable-name" : [
+      true,
+      "allow-leading-underscore"
+    ],
+    "jsx-alignment": false,
+    "jsx-no-string-ref": false
+  },
+  "env": {
+      "mocha": true
   }
 }
