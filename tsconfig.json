@@ -11,16 +11,28 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "noUnusedParameters": true,
-    "noUnusedLocals": true,
+    "noUnusedLocals": false, // to pass including mocha in tests; when we figure out a better way we can turn this back on
     "preserveConstEnums": true,
     "experimentalDecorators": true,
     "removeComments": true,
     "strictNullChecks": true,
     "jsx": "react",
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "lib": [
+      "dom",
+      "es2015"
+    ]
   },
+  "awesomeTypescriptLoaderOptions": {
+    "forkChecker": true
+  },
+  "include": [
+    "src/**/*",
+    "node_modules/@types/node/index.d.ts"
+  ],
   "exclude": [
     "node_modules",
-    "build"
+    "build",
+    "coverage"
   ]
 }

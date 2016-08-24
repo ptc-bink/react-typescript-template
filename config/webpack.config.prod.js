@@ -44,7 +44,7 @@ module.exports = {
       {
         test: /\.tsx?$/,
         include: paths.appSrc,
-        loader: 'ts'
+        loader: 'awesome-typescript'
       },
       {
         test: /\.css$/,
