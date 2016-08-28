@@ -24,7 +24,7 @@ module.exports = {
     extensions: ['', '.ts', '.tsx', '.js', '.json']
   },
   resolveLoader: {
-    root: paths.ownNodeModules,
+    root: paths.appNodeModules,
     moduleTemplates: ['*-loader']
   },
   module: {

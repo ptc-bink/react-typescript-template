@@ -10,6 +10,5 @@ module.exports = {
   appFavicon: resolveApp('favicon.ico'),
   appPackageJson: resolveApp('package.json'),
   appSrc: resolveApp('src'),
-  appNodeModules: resolveApp('node_modules'),
-  ownNodeModules: resolveApp('node_modules')
+  appNodeModules: resolveApp('node_modules')
 };
