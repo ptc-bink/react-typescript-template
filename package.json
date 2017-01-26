@@ -4,7 +4,8 @@
   "description": "A universal boilerplate based on create-react-app for React+Typescript",
   "scripts": {
     "start": "node scripts/start.js",
-    "build": "node scripts/build.js",
+    "prebuild": "npm run clean",
+    "build": "npm run prebuild; node scripts/build.js",
     "clean": "rimraf build",
     "test": "node scripts/test.js --env=jsdom"
   },

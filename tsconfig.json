@@ -2,7 +2,7 @@
   "compilerOptions": {
     "outDir": "build",
     "module": "commonjs",
-    "target": "es5",
+    "target": "es2015",
     "baseUrl": "src",
     "sourceMap": true,
     "inlineSourceMap": false,
@@ -17,11 +17,7 @@
     "removeComments": true,
     "strictNullChecks": true,
     "jsx": "react",
-    "moduleResolution": "node",
-    "lib": [
-      "dom",
-      "es2015"
-    ]
+    "moduleResolution": "node"
   },
   "awesomeTypescriptLoaderOptions": {
     "forkChecker": true
