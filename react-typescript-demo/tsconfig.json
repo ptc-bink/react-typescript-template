@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "outDir": "build",
+    "module": "commonjs",
+    "target": "es2015",
+    "baseUrl": "src",
+    "sourceMap": true,
+    "inlineSourceMap": false,
+    "inlineSources": false,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": false, // to pass including mocha in tests; when we figure out a better way we can turn this back on
+    "preserveConstEnums": true,
+    "experimentalDecorators": true,
+    "removeComments": true,
+    "strictNullChecks": true,
+    "jsx": "react",
+    "moduleResolution": "node"
+  },
+  "awesomeTypescriptLoaderOptions": {
+    "forkChecker": true
+  },
+  "include": [
+    "src/**/*",
+    "node_modules/@types/node/index.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "build",
+    "coverage"
+  ]
+}
